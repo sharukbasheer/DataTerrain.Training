@@ -35,6 +35,12 @@ ScaffoldingReadMe.txt
 *.nupkg
 # NuGet Symbol Packages
 *.snupkg
+# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
 
 # Others
 ~$*
