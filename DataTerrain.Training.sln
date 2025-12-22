@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{EDA0FB71-DDFE-4753-8C29-AFDB8EAB1647}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{634365D7-C0FA-4C28-BC9F-CF761EF20A0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeMethod", "Composite\CompositeMethod.csproj", "{634365D7-C0FA-4C28-BC9F-CF761EF20A0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{BD54C615-1BCA-4448-87A4-3B9434BFCEB8}"
 EndProject
