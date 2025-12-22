@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Adapter.Adapters;
+using Adapter.Interfaces;
+using Adapter.ThirdParty;
+
+IPaymentService paymentService = new PaymentGatewayAdapter(new ThirdPartyPaymentGateway());
+paymentService.MakePayment(100);
+
+Console.ReadKey();
