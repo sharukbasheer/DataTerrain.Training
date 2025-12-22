@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using State.Context;
+
+var order = new OrderContext();
+
+order.Ship();
+order.Deliver();
+order.Cancel();
+Console.ReadKey();
